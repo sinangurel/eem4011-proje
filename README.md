@@ -11,7 +11,7 @@ Ham veri depoya eklenmez. Kod yalnız belirtilen kayıtları WFDB ile okur.
 
 ## Çalıştırma
 
-1. Projenin `.ipynb` defterini Google Colab'da açın.
+1. `eem4011_proje.ipynb` dosyasını Google Colab’da açın. `Untitled2.ipynb` önceki aşamanın defteridir.
 2. Hücreleri yukarıdan aşağıya çalıştırın. İlk hücre `wfdb` paketini kurar, `params.json` oluşturur ve verileri okur; internet gerekir.
 3. Sonraki hücreler bellekteki verilerle tespit, gürültü taraması, filtre karşılaştırması ve PSD hesabını yapar.
 4. Sonuç hücresi grafiği ve tabloları `sonuclar/` klasörüne kaydeder. İndirme hücresi bunları `params.json` ile paketler.
